@@ -49,7 +49,7 @@ body {
 }
 
 .signup-form .btn.btn-fb:hover {
-  background-color: #2d6599
+  background-color: #2d6599;
 }
 
 .signup-form .btn.btn-signup {
@@ -99,3 +99,16 @@ $avatar-size: 48px;
 .card .fa-heart-o {
   color: $secondary-color;
 }
+.card .fa-heart {
+  color: #f44336;
+  display: none;
+}
+.card.liked {
+  .fa-heart {
+    display: block;
+  }
+  .fa-heart-o {
+    display: none;
+  }
+}
+
